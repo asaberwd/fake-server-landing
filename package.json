@@ -1,0 +1,17 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+      "start": "node server.js",
+      "dev-server": "json-server -p 4200 db.json",
+      "start1": "concurrently \"json-server -p  db.json\"  \"react-scripts start\" "
+  },
+  
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.15.1"
+  }
+}
